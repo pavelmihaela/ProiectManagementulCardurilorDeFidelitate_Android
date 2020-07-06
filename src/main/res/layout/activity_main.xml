@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:background="@drawable/card2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/carduri_avantajoase"
+            android:layout_marginTop="300dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_rounded_cont"
+            android:onClick="Vezi"
+
+        />
+
+
+
+        <Button
+            android:id="@+id/btn_json"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_de_contact"
+            android:textStyle="bold"
+            android:onClick="vezi_date_contact"
+            android:background="@drawable/button_rounded_cont"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+
+        android:id="@+id/nav"
+        app:headerLayout="@layout/header_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/main_activity_menu"
+        android:layout_gravity="start"
+        android:background="@drawable/card2"
+
+
+
+
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

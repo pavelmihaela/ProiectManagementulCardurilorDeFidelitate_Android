@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/cont" android:title="@string/cont" android:icon="@drawable/ic_identity_black_24dp" />
+    <item android:id="@+id/carduri" android:title="@string/carduri" android:icon="@drawable/ic_card_giftcard_black_24dp"/>
+    <item android:id="@+id/oferte" android:title="@string/oferte" android:icon="@drawable/ic_fiber_new_black_24dp"/>
+    <item android:id="@+id/lista" android:title="@string/lista" android:icon="@drawable/ic_shopping_cart_black_24dp" />
+    <item android:id="@+id/despre" android:title="@string/despre" android:icon="@drawable/ic_info_outline_black_24dp" />
+    <item android:id="@+id/setari" android:title="@string/set_ri" android:icon="@drawable/ic_settings_black_24dp" />
+
+</menu>

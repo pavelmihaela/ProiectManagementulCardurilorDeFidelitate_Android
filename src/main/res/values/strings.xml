@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="set_ri">Setări</string>
+    <string name="lista">Listă de cumpăraturi</string>
+    <string name="despre">Despre</string>
+    <string name="oferte">Oferte</string>
+    <string name="carduri">Carduri</string>
+    <string name="cont">Cont</string>
+    <string name="titlu">Carduri de fidelitate</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="my_rating">My Rating?</string>
+    <string name="prenume">Prenume</string>
+    <string name="email">Email</string>
+    <string name="confirma">Confirma!</string>
+    <string name="nume">Nume</string>
+    <string name="parola">Parola</string>
+    <string name="aici_va_aparea_ratingul">Aici va aparea ratingul!</string>
+    <string name="confirm">Confirm!</string>
+    <string name="descriere_aplicatie">Descriere aplicatie</string>
+    <string name="managementul_cardurilor_de_fidelitate">Managementul cardurilor de fidelitate</string>
+    <string name="kaufland">Kaufland</string>
+    <string name="todo">TODO</string>
+    <string name="adauga">Adauga</string>
+    <string name="adauga_produs">Adauga produs</string>
+    <string name="adauga_card_nou">ADAUGA CARD NOU</string>
+    <string name="model_formular_card">MODEL FORMULAR CARD</string>
+    <string name="afiseaza_modelul">Afiseaza modelul!</string>
+    <string name="afiseaza">Afiseaza</string>
+    <string name="valabilitate">Valabilitate</string>
+    <string name="numar_de_card">Numar de card</string>
+    <string name="notificari">Notificari</string>
+    <string name="vezi">vezi</string>
+    <string name="crd_existente">Carduri existente</string>
+    <string name="carduri_avantajoase">Carduri avantajoase!</string>
+    <string name="den">Denumire</string>
+    <string name="categ">Categorie</string>
+    <string name="arata">Arata</string>
+    <string name="des">Descriere</string>
+    <string name="v">v</string>
+    <string name="numele_magazinului">Numele magazinului</string>
+    <string name="date_de_contact">Date de contact</string>
+    <string name="afiseaza_contacte">Afiseaza Contacte</string>
+    <string name="apasa_butonul_sa_vezi_contactele">Apasa butonul sa vezi contactele!</string>
+    <string name="afiseaza_json">Afiseaza_json</string>
+    <string name="aici_apar_contactele">Aici apar contactele</string>
+    <string name="model_formular">Model formular</string>
+    <string name="formular">Formular</string>
+    <string name="doriti_sa_primiti_notificari">Doriti sa primiti notificari?</string>
+    <string name="da_doar_detalii_despre_contul_meu">Da,doar detalii despre contul meu</string>
+    <string name="da_atat_despre_contul_meu_cat_si_despre_cele_mai_recente_oferte">Da, atat despre contul meu cat si despre cele mai recente oferte</string>
+    <string name="nu_multumesc">Nu,multumesc</string>
+    <string name="afiseaza_ce_a_fost_selectat">Afiseaza ce-a fost selectat!</string>
+    <string name="in_functie_de_zona_in_care_va_aflati_veti_primi_oferte_exclusive">In functie de zona in care va aflati, veti primi oferte exclusive!</string>
+    <string name="alege_zona">Alege zona:</string>
+    <string name="despre_aplicatie">Despre Aplicatie</string>
+
+    <string name="about">
+    Primiti des carduri de fidelitate de la diversi comercianti, dar nu le utilizati deoarece nu le aveti niciodata la
+        dumneavoastra? \n\n
+    V-ati saturat ca ofertele sa treaca, fara a profita de ele? Ati incercat sa tineti pasul
+        dar,din pacate, n-ati reusit? \n\n
+        <b> Noi reprezentam solutia pentru a putea fi evitat tot ce-am mentionat anterior!</b>
+        O aplicatie inovatoare, simpla si eficienta, ce tine evidenta cardurilor de fidelitate este
+        o necesitate, iar faptul ca va informam si cu privire la ofertele actuale, reprezinta un plus!
+
+    </string>
+    <string name="date_contact">Date Contact</string>
+    <string name="informatii">Informatii:</string>
+    <string name="contactejson">contacteJSON</string>
+
+    <string-array name="NumeOrase">
+        <item> Arad </item>
+        <item>Bucuresti</item>
+        <item> Bacau </item>
+        <item> Braila </item>
+        <item> Buzau </item>
+        <item> Campulung </item>
+        <item>  Deva  </item>
+        <item>  Iasi </item>
+        <item> Miercurea Ciuc </item>
+        <item> Piatra Neamt  </item>
+        <item> Sighisoara </item>
+
+
+    </string-array>
+</resources>

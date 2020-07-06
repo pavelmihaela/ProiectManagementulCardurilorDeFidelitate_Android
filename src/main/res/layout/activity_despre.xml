@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    tools:context=".Despre">
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:numStars="5"
+        android:stepSize="1"
+
+        />
+
+    <Button
+        android:id="@+id/btn_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+
+
+        android:text="@string/my_rating"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/tx_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aici_va_aparea_ratingul"
+        android:layout_below="@id/btn_rating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_despre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/descriere_aplicatie"
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#673AB7"
+
+
+        />
+
+
+</RelativeLayout>
